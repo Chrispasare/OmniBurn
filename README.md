@@ -20,15 +20,21 @@ Un singur fișier, fără instalare. La pornire cere drepturi de administrator, 
 |---|---|---|
 | Disc de date, multisession, verificare | Stick de instalare Windows (GPT/UEFI, MBR/BIOS) | Hash MD5 / SHA-1 / SHA-256 / SHA-512 |
 | Scriere ISO pe disc | `install.wim` peste 4 GB împărțit automat | |
-| Fișiere/foldere → ISO, disc → ISO | Linux și IMG în mod DD, cu verificare | |
-| CD audio din MP3, FLAC, WAV, WMA, M4A | Windows 11 fără TPM / Secure Boot / cont Microsoft | |
-| Ștergere CD-RW / DVD±RW / BD-RE | Formatare, backup stick → imagine | |
+| Fișiere/foldere → ISO, inclusiv bootabil | NTFS cu UEFI:NTFS | |
+| Disc → ISO, copiere disc → disc | Linux și IMG în mod DD, cu verificare | |
+| CD audio din MP3, FLAC, WAV, WMA, M4A | Persistență pentru Ubuntu / Mint / Debian live | |
+| CD audio → WAV / MP3 | Windows 11 fără TPM / Secure Boot / cont Microsoft | |
+| Ștergere CD-RW / DVD±RW / BD-RE | Formatare (FAT32 și peste 32 GB), backup stick → imagine | |
 
 ## Siguranță / Safety
 
 Sunt listate doar dispozitivele USB și cardurile SD. Discul de sistem nu apare niciodată, iar orice ștergere cere confirmare.
 
 *Only USB devices and SD cards are listed. The system disk never appears, and every erase asks for confirmation.*
+
+## Componente externe / Third-party
+
+NAudio (MIT). UEFI:NTFS (GPL, proiectul Rufus) nu este inclus: se descarcă la prima folosire din depozitul oficial Rufus. / *UEFI:NTFS (GPL, Rufus project) is not bundled: it is downloaded on first use from the official Rufus repository.*
 
 ## Licență / License
 
